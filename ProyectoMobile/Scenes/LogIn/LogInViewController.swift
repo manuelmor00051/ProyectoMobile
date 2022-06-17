@@ -29,8 +29,6 @@ class LogInViewController: UIViewController {
 
     func setupUI() {
         self.logInLabel.text = Constants.LoggingTexts.logIn
-        self.emailTextFIeld.layer.cornerRadius = 22
-        self.passwordTextField.layer.cornerRadius = 22
         self.confirmButton.layer.cornerRadius = 22
         self.confirmButton.backgroundColor = Constants.Colors.loginButtonTextColor
         self.haveAccountLabel.text = Constants.LoggingTexts.haveAccount

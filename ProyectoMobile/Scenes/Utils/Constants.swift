@@ -9,15 +9,19 @@ import Foundation
 import UIKit
 
 struct Constants {
+
     struct Colors {
         static let loginButtonTextColor: UIColor? = UIColor(named: "LoginButtonTextColor")
         static let textFieldAndButtonsColor: UIColor? = UIColor(named: "TextFieldAndButtonsColor")
     }
 
     struct LoggingTexts {
-        static let appName: String = "Arbolum"
         static let logIn: String = "Identifícate"
         static let haveAccount: String = "¿No tienes cuenta?"
         static let register: String = "Regístrate"
+    }
+
+    struct SingUpTexts {
+        static let singUp: String = "Regístrate"
     }
 }
